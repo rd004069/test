@@ -28,12 +28,12 @@
   <body>
     <div id="cesiumContainer"></div>
     <script>
-var viewer = new Cesium.Viewer('cesiumContainer');    
+     var viewer = new Cesium.Viewer('cesiumContainer');   
 
-var polygon = viewer.entities.add({
-    name:"福井県庁",
-    description:"ここは福井県庁です。",　
-    polygon : {
+     var polygon = viewer.entities.add({
+       name:"福井県庁",
+       description:"ここは福井県庁です。",　
+       polygon : {
         hierarchy : Cesium.Cartesian3.fromDegreesArrayHeights([
           136.220266, 36.066095,0,
           136.220287, 36.063848,0,
