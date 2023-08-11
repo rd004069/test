@@ -28,7 +28,9 @@
   <body>
     <div id="cesiumContainer"></div>
     <script>
-    var polygon = viewer.entities.add({
+var viewer = new Cesium.Viewer('cesiumContainer');    
+
+var polygon = viewer.entities.add({
     name:"福井県庁",
     description:"ここは福井県庁です。",　
     polygon : {
